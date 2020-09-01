@@ -1,0 +1,13 @@
+<button (click)="addNewTask()">New task</button>
+
+<ul>
+    <li *ngFor="let task of tasks">
+        {{task.label}}
+        <span>
+            <input type="checkbox" value="checked"
+                [(ngModel)]="task.complete" />
+        </span>
+    </li>
+</ul>
+
+<pre>{{tasks | json}}</pre>
