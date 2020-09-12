@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    width: 350px;
+}
+
+li {
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 2px 3px;
+}
+
+li span {
+    float: right;
+}
+
+li span input {
+    cursor: pointer;
+}
